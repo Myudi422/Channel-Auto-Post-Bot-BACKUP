@@ -29,7 +29,7 @@ FILTER_GAME = bool(os.environ.get("FILTER_GAME", False))
 
 # for copy
 AS_COPY = bool(os.environ.get("AS_COPY", True))
-REPLY_MARKUP = bool(os.environ.get("REPLY_MARKUP", False))
+REPLY_MARKUP = bool(os.environ.get("REPLY_MARKUP", True))
 
 # bot informations
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
